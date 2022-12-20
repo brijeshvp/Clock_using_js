@@ -1,0 +1,48 @@
+html,body {
+    height: 100%;
+    width: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#heading {
+    text-align: center;
+    font-size: 4rem;
+    margin: 5px 0;
+}
+
+.container {
+    display: flex;
+    margin: 10px 5px;
+    justify-content: center;
+}
+
+.box {
+    margin: 2px 10px;
+    font-size: 2rem;
+    background: black;
+    color: white;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+}
+
+.blink {
+    opacity: 0;
+}
+
+.digits {
+    margin: 5px 0;
+    font-size: 3rem;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+ }
